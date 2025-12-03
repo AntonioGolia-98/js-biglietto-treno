@@ -10,7 +10,7 @@ let ticketMinorenni= ticket - scontoMinorenni;
 let ticketOver= ticket - scontoOver;
 
 
-if (età > 18 && età < 65) {
+if (età >= 18 && età <= 65) {
     console.log(`il prezzo del biglietto è ${ticket}`);
 }else if (età < 18){
     console.log(`il prezzo del biglietto è ${ticketMinorenni.toFixed(2)}`);
